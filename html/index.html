@@ -19,5 +19,14 @@ orking. Further configuration is required.</p>
 <h3>20180826</h3>
 <h2>尝试搞一套本地发线上</h2>
 <h3>20180830</h3>
+
+<h2>本地发线上</h2>
+<ol type="1">
+    <li>linux 公钥验证登录 ==> 可以免密登录，从而不会因为等待输入密码而中断shell</li>
+    <li>ssh-key 多个冲突解决 ==> 解决本地连接服务器的key和github的key覆盖</li>
+    <li>linux服务器上传文件 ==> 上传本地的公钥到服务器  scp => scp localFile serverUser@server:path</li>
+    <li>总结： 在本地跑一个shell 连接到 服务器，再在服务器上获取最新代码</li>
+</ol>
+<h3>20180908</h3>
 </body>
 </html>
